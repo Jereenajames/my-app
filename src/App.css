@@ -1,0 +1,59 @@
+.sidenav {
+  background-color: #ed7d31;
+}
+.form-row {
+  margin-bottom: 10px;
+}
+
+.form-row p {
+  color: red;
+}
+.form-label {
+  justify-content: end;
+}
+
+.inputbox {
+  width: 60%;
+}
+.page-container {
+  margin-top: 30px;
+}
+
+body {
+  background-color: #ebd9b4;
+}
+
+.text {
+  color: aliceblue;
+}
+
+.pagination {
+  display: flex;
+  justify-content:center;
+  list-style: none;
+  padding: 0;
+
+  li {
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+
+    &.pagination__link--active {
+      background-color: #007bff;
+      color: #fff;
+    }
+
+    &.pagination__link--disabled {
+      pointer-events: none;
+      color: #aaa;
+      border-color: #aaa;
+    }
+    a {
+      text-decoration: none; /* Remove underline */
+    }
+  }
+}
+
