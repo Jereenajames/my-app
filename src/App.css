@@ -29,31 +29,16 @@ body {
 
 .pagination {
   display: flex;
-  justify-content:center;
+  justify-content:e;
   list-style: none;
   padding: 0;
-
-  li {
     margin: 0 5px;
     cursor: pointer;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    display: inline-block;
-
-    &.pagination__link--active {
-      background-color: #007bff;
-      color: #fff;
-    }
-
-    &.pagination__link--disabled {
-      pointer-events: none;
-      color: #aaa;
-      border-color: #aaa;
-    }
-    a {
-      text-decoration: none; /* Remove underline */
-    }
+    display: inline-block; 
+    
   }
-}
+
 
